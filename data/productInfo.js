@@ -4,7 +4,7 @@ const products = [
     title: "Running Shoes",
     price: 99,
     category: "clothing",
-    image: "/products/shoes.jpg",
+    image:"https://images.unsplash.com/photo-1585944672394-4c58a015c1fb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cnVubmluZyUyMHNob2VzfGVufDB8fDB8fHww",
     description: "Lightweight running shoes suitable for daily workouts.",
   },
   {
@@ -12,7 +12,7 @@ const products = [
     title: "Wireless Headphones",
     price: 129,
     category: "electronics",
-    image: "/products/headphones.jpg",
+    image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D",
     description: "Noise-cancelling wireless headphones with clear sound.",
   },
   {
@@ -20,7 +20,7 @@ const products = [
     title: "Smart Watch",
     price: 249,
     category: "electronics",
-    image: "/products/smartwatch.jpg",
+    image: "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c21hcnQlMjB3YXRjaHxlbnwwfHwwfHx8MA%3D%3D",
     description: "Smartwatch with fitness and health tracking features.",
   },
   {
@@ -28,7 +28,7 @@ const products = [
     title: "Laptop Backpack",
     price: 79,
     category: "home",
-    image: "/products/backpack.jpg",
+    image: "https://images.unsplash.com/photo-1548611716-f156c633d514?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bGFwdG9wJTIwYmFnfGVufDB8fDB8fHww",
     description: "Durable backpack ideal for office and travel use.",
   },
   {
@@ -36,7 +36,7 @@ const products = [
     title: "Bluetooth Speaker",
     price: 59,
     category: "electronics",
-    image: "/products/speaker.jpg",
+    image: "https://images.unsplash.com/photo-1589001181560-a8df1800e501?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Ymx1ZXRvb3RoJTIwc3BlYWtlcnxlbnwwfHwwfHx8MA%3D%3D",
     description: "Portable Bluetooth speaker with powerful sound.",
   },
   {
@@ -44,7 +44,7 @@ const products = [
     title: "Cotton T-Shirt",
     price: 29,
     category: "clothing",
-    image: "/products/tshirt.jpg",
+    image: "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNvdHRvbiUyMHQlMjBzaGlydHxlbnwwfHwwfHx8MA%3D%3D",
     description: "Comfortable cotton T-shirt for everyday wear.",
   },
   {
@@ -52,7 +52,7 @@ const products = [
     title: "Denim Jeans",
     price: 69,
     category: "clothing",
-    image: "/products/jeans.jpg",
+    image: "https://images.unsplash.com/photo-1714143136372-ddaf8b606da7?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZGVuaW0lMjBqZWFuc3xlbnwwfHwwfHx8MA%3D%3D",
     description: "Classic denim jeans with a modern fit.",
   },
   {
@@ -60,7 +60,7 @@ const products = [
     title: "Winter Jacket",
     price: 149,
     category: "clothing",
-    image: "/products/jacket.jpg",
+    image: "https://images.unsplash.com/photo-1706765779494-2705542ebe74?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ludGVyJTIwamFja2V0c3xlbnwwfHwwfHx8MA%3D%3D",
     description: "Warm winter jacket suitable for cold weather.",
   },
   {
@@ -68,7 +68,7 @@ const products = [
     title: "Casual Sneakers",
     price: 89,
     category: "clothing",
-    image: "/products/sneakers.jpg",
+    image: "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c25lYWtlcnN8ZW58MHx8MHx8fDA%3D",
     description: "Comfortable sneakers for casual daily use.",
   },
   {
@@ -76,7 +76,7 @@ const products = [
     title: "Hoodie",
     price: 49,
     category: "clothing",
-    image: "/products/hoodie.jpg",
+    image: "https://images.unsplash.com/photo-1609873814058-a8928924184a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aG9vZGllfGVufDB8fDB8fHww",
     description: "Soft and warm hoodie for relaxed comfort.",
   },
   {
@@ -84,7 +84,7 @@ const products = [
     title: "Mechanical Keyboard",
     price: 109,
     category: "electronics",
-    image: "/products/keyboard.jpg",
+    image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8a2V5Ym9hcmR8ZW58MHx8MHx8fDA%3D",
     description: "Mechanical keyboard with tactile keys for typing.",
   },
   {
@@ -92,7 +92,7 @@ const products = [
     title: "Wireless Mouse",
     price: 39,
     category: "electronics",
-    image: "/products/mouse.jpg",
+    image: "https://images.unsplash.com/photo-1662323861979-0538474387e3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2lyZWxlc3MlMjBtb3VzZXxlbnwwfHwwfHx8MA%3D%3D",
     description: "Ergonomic wireless mouse for smooth navigation.",
   },
   {
@@ -100,7 +100,7 @@ const products = [
     title: "LED Monitor",
     price: 199,
     category: "electronics",
-    image: "/products/monitor.jpg",
+    image: "https://images.unsplash.com/photo-1601467075935-7e5c5c607074?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TGVkJTIwbW9uaXRvcnxlbnwwfHwwfHx8MA%3D%3D",
     description: "24-inch LED monitor with full HD resolution.",
   },
   {
@@ -108,7 +108,7 @@ const products = [
     title: "Digital Camera",
     price: 499,
     category: "electronics",
-    image: "/products/camera.jpg",
+    image: "https://images.unsplash.com/photo-1603208234872-619ffa1209cb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RGlnaXRhbCUyMENhbWVyYXxlbnwwfHwwfHx8MA%3D%3D",
     description: "High-quality digital camera for photography.",
   },
   {
@@ -116,7 +116,7 @@ const products = [
     title: "Office Chair",
     price: 159,
     category: "home",
-    image: "/products/chair.jpg",
+    image: "https://images.unsplash.com/photo-1688578735352-9a6f2ac3b70a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8b2ZmaWNlJTIwY2hhaXJ8ZW58MHx8MHx8fDA%3D",
     description: "Comfortable office chair with back support.",
   },
   {
@@ -124,7 +124,7 @@ const products = [
     title: "Wooden Table",
     price: 299,
     category: "home",
-    image: "/products/table.jpg",
+    image: "https://images.unsplash.com/photo-1487015307662-6ce6210680f1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdvb2RlbiUyMHRhYmxlfGVufDB8fDB8fHww",
     description: "Sturdy wooden table for dining or work.",
   },
   {
@@ -132,7 +132,7 @@ const products = [
     title: "Desk Lamp",
     price: 45,
     category: "home",
-    image: "/products/lamp.jpg",
+    image: "https://images.unsplash.com/photo-1621177555452-bedbe4c28879?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGVzayUyMGxhbXB8ZW58MHx8MHx8fDA%3D",
     description: "Adjustable desk lamp with bright LED light.",
   },
   {
@@ -140,7 +140,7 @@ const products = [
     title: "Smartphone",
     price: 699,
     category: "electronics",
-    image: "/products/phone.jpg",
+    image: "https://images.unsplash.com/photo-1607270788732-55d2cdb8f52a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNtYXJ0JTIwcGhvbmV8ZW58MHx8MHx8fDA%3D",
     description: "Latest smartphone with high-performance features.",
   },
   {
@@ -148,7 +148,7 @@ const products = [
     title: "Tablet",
     price: 399,
     category: "electronics",
-    image: "/products/tablet.jpg",
+    image: "https://images.unsplash.com/photo-1542751110-97427bbecf20?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGFibGV0fGVufDB8fDB8fHww",
     description: "Lightweight tablet for work and entertainment.",
   },
   {
@@ -156,7 +156,7 @@ const products = [
     title: "Wireless Earbuds",
     price: 79,
     category: "electronics",
-    image: "/products/earbuds.jpg",
+    image: "https://images.unsplash.com/photo-1615281612781-4b972bd4e3fe?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZWFyYnVkc3xlbnwwfHwwfHx8MA%3D%3D",
     description: "Compact wireless earbuds with clear audio.",
   },
 ];

@@ -59,10 +59,14 @@ export default function ProductDetailPage() {
               />
             </div>
 
-            {/* Add to Cart (logic later) */}
-            <button className="bg-blue-950 text-white px-6 py-2 rounded hover:bg-blue-700">
+            {/* Add to Cart*/}
+            <button
+              onClick={() => addToCart(product, quantity)}
+              className="bg-blue-950 text-white px-6 py-2 rounded hover:bg-blue-700"
+            >
               Add to Cart
             </button>
+            <button onClick={() => removeFromCart(item.id)}>Remove</button>
           </div>
         </div>
       </div>
