@@ -2,7 +2,7 @@
 import {Search, ShoppingCart } from "lucide-react";
 import Link from "next/link";
 
-const Header = () => {
+const Header = ({ search, setSearch }) => {
   return (
     <header
       className="bg-blue-800 text-white
@@ -22,6 +22,7 @@ const Header = () => {
           <input
             type="text"
             placeholder="Search for products..."
+            onChange={(e) => setSearch(e.target.value)}
             className="w-full pl-10 rounded-md text-white outline-none border-2 border-gray-200"
           />
         </div>

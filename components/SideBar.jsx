@@ -1,48 +1,71 @@
-const Sidebar = () => {
-  return (
-    <aside className="bg-blue-800 p-4 rounded-lg shadow">
-      <h2 className="font-semibold text-lg mb-4">Filters</h2>
+"use client";
 
-      {/* Category Filter */}
+const Sidebar = ({ category, setCategory, price, setPrice }) => {
+  return (
+    <div className="bg-blue-800 p-4 rounded shadow">
+      <h2 className="font-semibold mb-4">Filters</h2>
+
+      {/* Category */}
       <div className="mb-6">
-        <h3 className="font-medium mb-2 text-xl">Category</h3>
-        <ul className="space-y-2 text-sm flex gap-2 flex-col text-sm ">
-          <li>
-            <label className="flex items-center gap-2">
-              <input type="checkbox" />
-              Electronics
-            </label>
-          </li>
-          <li>
-            <label className="flex items-center gap-2">
-              <input type="checkbox" />
-              Clothing
-            </label>
-          </li>
-          <li>
-            <label className="flex items-center gap-2">
-              <input type="checkbox" />
-              Home
-            </label>
-          </li>
-        </ul>
+        <p className="font-medium mb-2">Category</p>
+
+        <label className="block text-sm">
+          <input
+            type="radio"
+            name="category"
+            checked={category === "all"}
+            onChange={() => setCategory("all")}
+          />
+          <span className="ml-2">All</span>
+        </label>
+
+        <label className="block text-sm">
+          <input
+            type="radio"
+            name="category"
+            checked={category === "electronics"}
+            onChange={() => setCategory("electronics")}
+          />
+          <span className="ml-2">Electronics</span>
+        </label>
+
+        <label className="block text-sm">
+          <input
+            type="radio"
+            name="category"
+            checked={category === "clothing"}
+            onChange={() => setCategory("clothing")}
+          />
+          <span className="ml-2">Clothing</span>
+        </label>
+
+        <label className="block text-sm">
+          <input
+            type="radio"
+            name="category"
+            checked={category === "home"}
+            onChange={() => setCategory("home")}
+          />
+          <span className="ml-2">Home</span>
+        </label>
       </div>
 
-      {/* Price Filter */}
+      {/* Price */}
       <div>
-        <h3 className="font-medium mb-2">Price</h3>
+        <p className="font-medium mb-2">Price</p>
+
         <input
           type="range"
           min="0"
           max="1000"
+          value={price}
+          onChange={(e) => setPrice(Number(e.target.value))}
           className="w-full"
         />
-        <div className="flex justify-between text-xs text-white mt-1">
-          <span>0</span>
-          <span>1000</span>
-        </div>
+
+        <p className="text-sm mt-1">Up to ₹{price}</p>
       </div>
-    </aside>
+    </div>
   );
 };
 
