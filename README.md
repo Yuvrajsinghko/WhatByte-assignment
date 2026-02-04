@@ -35,3 +35,4 @@ The application is built using **Next.js (App Router)** and follows the requirem
 ### 🔗 URL-Based Filtering
 Filters are synced with the URL. Example:
 
+### Deployment Link:https://what-byte-assignment-xh1d.vercel.app/
